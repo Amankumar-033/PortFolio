@@ -1,15 +1,18 @@
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
+import {motion} from 'motion/react'
+
+
 
 const Header = () => {
   return (
     <div className='w-11/12 max-w-3xl mx-auto text-center h-screen flex flex-col items-center justify-center gap-4 '>
 
-      <div>
+      <motion.div>
         {/* UserName profile picture */}
         <Image src={assets.profile_img} alt='profile-image' className='rounded-full w-32'/>
-      </div>
+      </motion.div>
 
         {/* UserName description */}
         <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'> Hi! I am Aman kumar <Image src={assets.hand_icon} alt='profile-hand-icon' className='w-6'/></h3>
