@@ -13,11 +13,11 @@ const Work = ({isDarkMode}) => {
 
 
       <motion.p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo' initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.5, delay:0.7}}>
-         Welcome to my portfolio. I am an experienced full stack developer and a DSA problem solver try to solve problems of the day for simply no reason whatsoever so thanks ...
+         Here are some of the projects I’ve recently worked on — from full stack web apps and UI/UX design to DSA-based tools. Each project reflects my passion for clean design, solid architecture, and efficient problem-solving.
       </motion.p>
 
 
-      <motion.div className='grid grid-cols-auto my-10 gap-5 dark:text-black' initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.6, delay:0.9}}>
+      <motion.div className='grid grid-cols-auto my-10 gap-5 s dark:text-black' initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.6, delay:0.9}}>
         {workData.map((project, index) => (
             <motion.div key={index} className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group' whileHover={{scale: 1.05}} transition={{duration: 0.5}} style={{backgroundImage: `url(${project.bgImage})`}}>
                 <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>

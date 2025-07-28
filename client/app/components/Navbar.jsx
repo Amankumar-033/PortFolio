@@ -35,7 +35,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
       </div>
 
       {/* Navbar starts here */}
-      <nav className={`w-full fixed flex items-center justify-between px-5 lg:px-8 xl:px-[8%] py-4 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20" : ""}`}>
+      <nav className={`w-full fixed z-50 flex items-center justify-between px-5 lg:px-8 xl:px-[8%] py-4 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20" : ""}`}>
         <a href="#top" className="text-3xl font-bold tracking-wide text-gray-800 dark:text-white mr-14"> Aman<span className="text-blue-600 dark:text-white">.</span></a>
 
 
