@@ -130,9 +130,6 @@ A modern, responsive, and beautifully crafted **personal portfolio website** bui
 │   └── tailwind.config.js
 └── structure.txt
 
----
-
-
 
 
 ## 📦 Getting Started Locally
@@ -147,16 +144,16 @@ git clone https://github.com/Amankumar-033/PortFolio.git
 ### 2. Install dependencies
 
 ```
-    cd portfolio-project/client
-    npm install
+cd portfolio-project/client
+npm install
 ```
 
 
 ### 3. Start the Development Server
 
 ```
-    npm run dev
-    Visit: http://localhost:3000
+npm run dev
+Visit: http://localhost:3000
 ```
 
 
