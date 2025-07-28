@@ -13,6 +13,7 @@ import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import vercel from "./vercel-icon.svg";
+import node from "./nodejs-icon.png";
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -30,6 +31,7 @@ import menu_black from './menu-black.png';
 import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
+import dsa_icon from "./dsa-icon.png";
 import web_icon from './web-icon.png';
 import mobile_icon from './mobile-icon.png';
 import ui_icon from './ui-icon.png';
@@ -72,6 +74,7 @@ export const assets = {
     web_icon,
     mobile_icon,
     ui_icon,
+    dsa_icon,
     graphics_icon,
     right_arrow,
     send_icon,
@@ -79,7 +82,9 @@ export const assets = {
     right_arrow_bold_dark,
     reactIcon,
     Postman,
-    vercel
+    vercel,
+    node,
+
 };
 
 export const workData = [
@@ -105,12 +110,30 @@ export const workData = [
     },
 ]
 
+
+
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
+  {
+    icon: assets.web_icon,
+    title: 'Full-Stack Development',
+    description: 'Building robust and scalable web applications using modern technologies like React, Node.js, Express, and MongoDB.',
+    link: ''
+  },
+  {
+    icon: assets.dsa_icon, // You’ll need to add a relevant icon here (maybe a brain, puzzle, or code symbol)
+    title: 'DSA & Problem Solving',
+    description: 'Expertise in data structures and algorithms with a strong foundation in solving complex coding challenges efficiently.',
+    link: ''
+  },
+  {
+    icon: assets.ui_icon,
+    title: 'UI/UX Design',
+    description: 'Designing intuitive and visually appealing user interfaces with a focus on user experience and accessibility.',
+    link: ''
+  },
+];
+
+
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, TypeScript, React, Next.js, HTML, CSS, Node.js, MongoDB' },
@@ -119,5 +142,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.reactIcon, assets.Postman, assets.vercel
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.reactIcon, assets.Postman, assets.node, assets.vercel
 ];
