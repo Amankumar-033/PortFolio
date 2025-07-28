@@ -17,14 +17,13 @@ const About = ({isDarkMode}) => {
 
 
         {/* My profile - picture */}
-        <motion.div className='w-64 sm:w-80 rounded-3xl max-w-none' initial={{opacity: 0,scale: 0.9}} whileInView={{opacity: 1,scale: 1}} transition={{duration: 0.6}}>
+        <motion.div className='w-74 sm:w-80 rounded-3xl max-w-none' initial={{opacity: 0,scale: 0.9}} whileInView={{opacity: 1,scale: 1}} transition={{duration: 0.6}}>
             <Image src={assets.user_image} alt='user-image' className='rounded-3xl w-full'/>  
         </motion.div>
 
         {/* All the informations regarding me */}
         <motion.div className='flex-1' initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.6, delay: 0.8}}> 
-            <p className='mb-10 max-w-2xl font-Ovo'> Hello, I am an experienced full stack developer and a DSA problem solver try to solve problems of the day for simply no reason whatsoever so thanks ...</p>
-
+            <p className='mb-10 max-w-2xl font-Ovo'> I'm a tech-focused student from NIT Patna ,  passionate about web development and software engineering. With a solid foundation in programming and a strong problem-solving mindset, I enjoy building real-world solutions and turning ideas into impactful digital products </p>
             <motion.ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl' initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.8, delay: 0.6}}>
                 {infoList.map(({icon, iconDark, title, description}, index) => (
                    <motion.li key={index} className='border-[0.5px] rounded-xl border-gray-400 p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50' whileInView={{scale: 1.05}}>
