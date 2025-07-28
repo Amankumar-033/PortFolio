@@ -11,13 +11,13 @@ const Header = () => {
 
       <motion.div initial={{scale: 0}} whileInView={{scale: 1}} transition={{duration: 0.8, type:'spring', stiffness: 100}}>
         {/* UserName profile picture */}
-        <Image src={assets.profile_img} alt='profile-image' className='rounded-full w-32'/>
+        <Image src={assets.user_image} alt='profile-image' className="w-32 h-32 rounded-full object-cover shadow-md"/>
       </motion.div>
 
         {/* UserName description */}
-        <motion.h3 initial={{y: -20, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.6, delay: 0.3}} className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'> Hi! I am Aman kumar <Image src={assets.hand_icon} alt='profile-hand-icon' className='w-6'/></motion.h3>
-        <motion.h1 initial={{y: -30, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.8, delay: 0.5}} className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'> Full stack web developer based in Bihar. </motion.h1>
-        <motion.p  initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.6, delay: 0.7}} className='max w-2xl mx-auto font-Ovo'> I am a full stack developer from Bihar, India with 2 years of experience in not multiple companies like TCS, Capgemini, Hyundai </motion.p>
+        <motion.h3 initial={{y: -20, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.6, delay: 0.3}} className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'> Hi! I'm Aman kumar <Image src={assets.hand_icon} alt='profile-hand-icon' className='w-6'/></motion.h3>
+        <motion.h1 initial={{y: -30, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.8, delay: 0.5}} className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>  Software Engineer & Full Stack Web Developer </motion.h1>
+        <motion.p  initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.6, delay: 0.7}} className='max w-2xl mx-auto font-Ovo'> I'm a passionate full stack developer based in Bihar, India, with hands-on experience building scalable web apps and modern UI experiences. I build both client and server-side apps using technologies like React, Next.js, Node.js, and MongoDB. Open to software engineering roles, internships, and freelance work.</motion.p>
         
         {/* Contact and resume option */}
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

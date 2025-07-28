@@ -36,9 +36,9 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
       {/* Navbar starts here */}
       <nav className={`w-full fixed flex items-center justify-between px-5 lg:px-8 xl:px-[8%] py-4 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20" : ""}`}>
-        <a href="#top">
-            <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt='logo-icon' className='w-28 cursor-pointer mr-14'/>
-        </a>
+        <a href="#top" className="text-3xl font-bold tracking-wide text-gray-800 dark:text-white mr-14"> Aman<span className="text-blue-600 dark:text-white">.</span></a>
+
+
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full py-3 px-12 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"}`}>
           <li><a className='font-Ovo' href='#top'>Home</a></li>

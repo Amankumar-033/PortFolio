@@ -10,15 +10,15 @@ const About = ({isDarkMode}) => {
     <motion.div id='about' className='w-full px-[12%] py-10 scroll mt-20' initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 1}}>
 
 
-      <motion.h4 className='text-center mb-2 text-lg font-Ovo' initial={{opacity: 0, y: -20}} whileInView={{opacity: 1, y: 0}} transition={{duration: 1,delay: 0.3}}>Introduction</motion.h4>
+      <motion.h3 className='text-center mb-2 text-lg font-Ovo' initial={{opacity: 0, y: -20}} whileInView={{opacity: 1, y: 0}} transition={{duration: 1,delay: 0.3}}>Introduction</motion.h3>
       <motion.h2 className='text-center text-5xl font-Ovo' initial={{opacity: 0,y: -20}} whileInView={{opacity: 1,y: 0}} transition={{duration: 1,delay: 0.5}}>About me</motion.h2>
 
-      <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20' initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.8}}>
+      <motion.div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20' initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.8}}>
 
 
         {/* My profile - picture */}
         <motion.div className='w-64 sm:w-80 rounded-3xl max-w-none' initial={{opacity: 0,scale: 0.9}} whileInView={{opacity: 1,scale: 1}} transition={{duration: 0.6}}>
-            <Image src={assets.user_image} alt='user-image' className='rounded-3xl w-full'/>
+            <Image src={assets.user_image} alt='user-image' className='rounded-3xl w-full'/>  
         </motion.div>
 
         {/* All the informations regarding me */}
@@ -44,7 +44,7 @@ const About = ({isDarkMode}) => {
         </motion.div>
 
 
-      </div>
+      </motion.div>
 
 
 
