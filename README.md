@@ -46,90 +46,35 @@ A modern, responsive, and beautifully crafted **personal portfolio website** bui
 
 ## 📁 Folder Structure
 
-.
-├── README.md
-├── client
-│   ├── .gitignore
-│   ├── README.md
-│   ├── app
-│   │   ├── components
-│   │   │   ├── About.jsx
-│   │   │   ├── Contact.jsx
-│   │   │   ├── Footer.jsx
-│   │   │   ├── Header.jsx
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── Services.jsx
-│   │   │   └── Work.jsx
-│   │   ├── favicon.ico
-│   │   ├── globals.css
-│   │   ├── layout.js
-│   │   └── page.js
-│   ├── assets
-│   │   ├── Postman.svg
-│   │   ├── arrow-icon-dark.png
-│   │   ├── arrow-icon.png
-│   │   ├── assets.js
-│   │   ├── close-black.png
-│   │   ├── close-white.png
-│   │   ├── code-icon-dark.png
-│   │   ├── code-icon.png
-│   │   ├── download-icon.png
-│   │   ├── dsa-icon.png
-│   │   ├── edu-icon-dark.png
-│   │   ├── edu-icon.png
-│   │   ├── figma.png
-│   │   ├── firebase.png
-│   │   ├── git.png
-│   │   ├── graphics-icon.png
-│   │   ├── hand-icon.png
-│   │   ├── header-bg-color.png
-│   │   ├── logo.png
-│   │   ├── logo_dark.png
-│   │   ├── mail_icon.png
-│   │   ├── mail_icon_dark.png
-│   │   ├── menu-black.png
-│   │   ├── menu-white.png
-│   │   ├── mobile-icon.png
-│   │   ├── mongodb.png
-│   │   ├── moon_icon.png
-│   │   ├── nodejs-icon.png
-│   │   ├── profile-img.png
-│   │   ├── project-icon-dark.png
-│   │   ├── project-icon.png
-│   │   ├── react.svg
-│   │   ├── right-arrow-bold-dark.png
-│   │   ├── right-arrow-bold.png
-│   │   ├── right-arrow-dark.png
-│   │   ├── right-arrow-white.png
-│   │   ├── right-arrow.png
-│   │   ├── send-icon.png
-│   │   ├── sun_icon.png
-│   │   ├── ui-icon.png
-│   │   ├── user-image.png
-│   │   ├── vercel-icon.svg
-│   │   ├── vscode.png
-│   │   └── web-icon.png
-│   ├── eslint.config.mjs
-│   ├── jsconfig.json
-│   ├── next.config.mjs
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── public
-│   │   ├── file.svg
-│   │   ├── footer-bg-color.png
-│   │   ├── globe.svg
-│   │   ├── next.svg
-│   │   ├── sample-resume.pdf
-│   │   ├── vercel.svg
-│   │   ├── window.svg
-│   │   ├── work-1.png
-│   │   ├── work-2.png
-│   │   ├── work-3.png
-│   │   └── work-4.png
-│   └── tailwind.config.js
-└── structure.txt
 
+portfolio/
+├── README.md
+└── client/
+    ├── .gitignore
+    ├── README.md
+    ├── app/
+    │   ├── components/
+    │   ├── favicon.ico
+    │   ├── globals.css
+    │   ├── layout.js
+    │   └── page.js
+    ├── assets/
+    │   ├── icons/                 
+    │   ├── images/                
+    │   └── assets.js               
+    ├── public/
+    │   ├── resume/                 
+    │   ├── illustrations/         
+    │   ├── work/                  
+    │   └── vercel/               
+    ├── config/
+    │   ├── eslint.config.mjs
+    │   ├── jsconfig.json
+    │   ├── next.config.mjs
+    │   ├── postcss.config.js
+    │   └── tailwind.config.js
+    ├── package.json
+    └── package-lock.json
 
 
 ## 📦 Getting Started Locally
